@@ -27,3 +27,9 @@ val ExoFamily =
     Font(R.font.exo_medium, FontWeight.Medium),
     Font(R.font.exo_regular, FontWeight.Normal)
   )
+
+val RobotoFamily =
+  FontFamily(
+    Font(R.font.roboto_medium, FontWeight.Medium),
+    Font(R.font.roboto_medium, FontWeight.Normal)
+  )
