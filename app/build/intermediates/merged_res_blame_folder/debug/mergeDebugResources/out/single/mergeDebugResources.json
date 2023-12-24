@@ -1,102 +1,106 @@
 [
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\font_exo_regular.ttf.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\font\\exo_regular.ttf"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\drawable_baseline_remove_red_eye_24.xml.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\drawable\\baseline_remove_red_eye_24.xml"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\drawable_firstimage.xml.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\drawable\\firstimage.xml"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\font_exo_semibold.ttf.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\font\\exo_semibold.ttf"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\font_exo_semibold.ttf.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\font\\exo_semibold.ttf"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\drawable_signup.xml.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\drawable\\signup.xml"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\font_exo_wget.ttf.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\font\\exo_wget.ttf"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\font_exo_regular.ttf.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\font\\exo_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\drawable_firstimage.xml.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\drawable\\firstimage.xml"
     },
     {
-        "merged": "com.organisation.educationui.app-debug-44:/drawable_baseline_remove_red_eye_24.xml.flat",
-        "source": "com.organisation.educationui.app-main-46:/drawable/baseline_remove_red_eye_24.xml"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\drawable_secondimage.xml.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\drawable\\secondimage.xml"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\font_exo_medium.ttf.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\font\\exo_medium.ttf"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\font_exo_medium.ttf.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\font\\exo_medium.ttf"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.organisation.educationui.app-debug-47:/drawable_icon_arts.png.flat",
+        "source": "com.organisation.educationui.app-main-49:/drawable/icon_arts.png"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\font_exo_italic.ttf.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\font\\exo_italic.ttf"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\font_roboto_medium.ttf.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\font\\roboto_medium.ttf"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\mipmap-anydpi\\ic_launcher.xml"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\drawable_drop_down.xml.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\drawable\\drop_down.xml"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\drawable_secondimage.xml.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\drawable\\secondimage.xml"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\mipmap-anydpi\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\font_roboto_medium.ttf.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\font\\roboto_medium.ttf"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-44:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-debug-47:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Ansal\\.gradle\\daemon\\8.4\\com.organisation.educationui.app-main-49:\\xml\\data_extraction_rules.xml"
     }
 ]

@@ -54,6 +54,7 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 drawable baseline_remove_red_eye_24
+drawable drop_down
 drawable firstimage
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -63,6 +64,7 @@ drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable icon_arts
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -77,6 +79,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable secondimage
+drawable signup
 font exo_medium
 font exo_regular
 font exo_semibold
@@ -234,7 +237,6 @@ string dropdown_menu
 string expanded
 string in_progress
 string indeterminate
-string lorem_ipsum
 string m3c_bottom_sheet_pane_title
 string navigation_menu
 string not_selected
@@ -263,6 +265,8 @@ string time_picker_minute_text_field
 string time_picker_period_toggle_description
 string time_picker_pm
 string title_activity_onboard
+string tooltip_description
+string tooltip_label
 string tooltip_long_press_label
 string tooltip_pane_description
 style DialogWindowTheme

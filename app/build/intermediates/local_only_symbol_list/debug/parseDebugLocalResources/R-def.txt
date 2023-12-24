@@ -8,10 +8,13 @@ color teal_200
 color teal_700
 color white
 drawable baseline_remove_red_eye_24
+drawable drop_down
 drawable firstimage
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable icon_arts
 drawable secondimage
+drawable signup
 font exo_medium
 font exo_regular
 font exo_semibold
@@ -19,7 +22,6 @@ font roboto_medium
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
-string lorem_ipsum
 string title_activity_onboard
 style Theme.EducationUI
 xml backup_rules

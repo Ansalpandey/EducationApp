@@ -4,7 +4,7 @@
             "outputFile": "com.organisation.educationui.test.app-mergeDebugAndroidTestResources-32:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ansal\\.gradle\\caches\\transforms-3\\0fcf7e498208e22de708070495e289d8\\transformed\\core-1.5.0\\res\\values-v21\\values.xml",
+                    "source": "C:\\Users\\Ansal\\.gradle\\caches\\transforms-3\\58b4c051947370dcab63a82cd50e9939\\transformed\\core-1.5.0\\res\\values-v21\\values.xml",
                     "from": {
                         "startLines": "4,13",
                         "startColumns": "0,0",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ansal\\.gradle\\caches\\transforms-3\\124a815f1c9478b0f851c251c625e74e\\transformed\\core-1.12.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\Ansal\\.gradle\\caches\\transforms-3\\0794760e5c1f34ec8cbce49c1aaea1f4\\transformed\\core-1.12.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
