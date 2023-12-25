@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -55,7 +56,7 @@ class SignIn : ComponentActivity() {
 fun SignInScreen() {
 
   Text(
-    modifier = Modifier.padding(top = 20.dp, start = 20.dp),
+    modifier = Modifier.padding(top = 10.dp, start = 20.dp),
     text = "Welcome Back....",
     fontSize = 24.sp,
     fontFamily = ExoFamily,
@@ -187,7 +188,8 @@ fun SignInScreen() {
         text = "Sign Up ",
         textAlign = TextAlign.Center,
         modifier =
-          Modifier.clickable {
+          Modifier.clickable(indication = null,
+            interactionSource = remember { MutableInteractionSource() }) {
             //
           },
         fontFamily = ExoFamily,

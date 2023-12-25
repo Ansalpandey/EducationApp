@@ -55,6 +55,7 @@ dimen notification_top_pad
 dimen notification_top_pad_large_text
 drawable baseline_remove_red_eye_24
 drawable drop_down
+drawable filter
 drawable firstimage
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -78,6 +79,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profileimage
 drawable secondimage
 drawable signup
 font exo_medium

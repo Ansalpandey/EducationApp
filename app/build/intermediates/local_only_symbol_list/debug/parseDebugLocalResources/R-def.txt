@@ -9,10 +9,12 @@ color teal_700
 color white
 drawable baseline_remove_red_eye_24
 drawable drop_down
+drawable filter
 drawable firstimage
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable icon_arts
+drawable profileimage
 drawable secondimage
 drawable signup
 font exo_medium
