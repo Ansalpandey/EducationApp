@@ -5,6 +5,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.indication
 import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -12,7 +13,9 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.shape.CornerSize
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -41,6 +44,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.organisation.educationui.R
+import com.organisation.educationui.ui.theme.ColorCard1
+import com.organisation.educationui.ui.theme.ColorCard2
+import com.organisation.educationui.ui.theme.ColorCard3
+import com.organisation.educationui.ui.theme.ColorCard4
 import com.organisation.educationui.ui.theme.ExoFamily
 import com.organisation.educationui.ui.theme.TextColor
 import com.organisation.educationui.ui.theme.TextColorDescription
@@ -134,7 +141,7 @@ fun MainScreen() {
         )
         Icon(
           painter = painterResource(id = R.drawable.filter),
-          contentDescription = "filter",
+          contentDescription = "customization",
           tint = TextColor,
           modifier =
             Modifier.size(38.dp).padding(start = 5.dp).weight(1f).clickable(
@@ -145,6 +152,109 @@ fun MainScreen() {
             }
         )
       }
+
+      Spacer(modifier = Modifier.height(40.dp))
+      Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.End) {
+        Text(
+          text = "Popular Teachers",
+          fontFamily = ExoFamily,
+          fontWeight = FontWeight.SemiBold,
+          fontSize = 20.sp,
+          color = TextColor,
+          modifier = Modifier.padding(start = 25.dp).weight(5f)
+        )
+        Image(
+          painter = painterResource(id = R.drawable.filterdata),
+          contentDescription = "filter",
+          modifier = Modifier.size(30.dp).weight(2f)
+        )
+      }
+      Spacer(modifier = Modifier.height(20.dp))
+      LazyRow() {
+        item {
+          Spacer(modifier = Modifier.width(20.dp))
+          CardTeachers(
+            title = "Cassie Valdez",
+            subject = "Biology",
+            backgroundColor = ColorCard1,
+            image = R.drawable.firstperson,
+            modifier = Modifier
+          )
+          Spacer(modifier = Modifier.width(20.dp))
+          CardTeachers(
+            title = "Paul Simons",
+            subject = "Chemistry",
+            backgroundColor = ColorCard2,
+            image = R.drawable.secondperson,
+            modifier = Modifier
+          )
+          Spacer(modifier = Modifier.width(20.dp))
+          CardTeachers(
+            title = "Graham Osbor",
+            subject = "Physics",
+            backgroundColor = ColorCard3,
+            image = R.drawable.thirdperson,
+            modifier = Modifier
+          )
+          Spacer(modifier = Modifier.width(20.dp))
+          CardTeachers(
+            title = "Veer Cope",
+            subject = "Bio Science",
+            backgroundColor = ColorCard4,
+            image = R.drawable.fourthperson,
+            modifier = Modifier
+          )
+        }
+      }
+
+      Spacer(modifier = Modifier.height(40.dp))
+      Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.End) {
+        Text(
+          text = "Popular Institution",
+          fontFamily = ExoFamily,
+          fontWeight = FontWeight.SemiBold,
+          fontSize = 20.sp,
+          color = TextColor,
+          modifier = Modifier.padding(start = 25.dp).weight(5f)
+        )
+        Image(
+          painter = painterResource(id = R.drawable.filterdata),
+          contentDescription = "filter",
+          modifier = Modifier.size(30.dp).weight(2f)
+        )
+      }
+      Spacer(modifier = Modifier.height(20.dp))
+      CardTeachers(
+        title = "Cassie Valdez",
+        subject = "Biology",
+        backgroundColor = ColorCard1,
+        image = R.drawable.firstperson,
+        modifier = Modifier
+      )
+      Spacer(modifier = Modifier.width(20.dp))
+      CardTeachers(
+        title = "Paul Simons",
+        subject = "Chemistry",
+        backgroundColor = ColorCard2,
+        image = R.drawable.secondperson,
+        modifier = Modifier
+      )
+      Spacer(modifier = Modifier.width(20.dp))
+      CardTeachers(
+        title = "Graham Osbor",
+        subject = "Physics",
+        backgroundColor = ColorCard3,
+        image = R.drawable.thirdperson,
+        modifier = Modifier
+      )
+      Spacer(modifier = Modifier.width(20.dp))
+      CardTeachers(
+        title = "Veer Cope",
+        subject = "Bio Science",
+        backgroundColor = ColorCard4,
+        image = R.drawable.fourthperson,
+        modifier = Modifier
+      )
     }
   }
 }

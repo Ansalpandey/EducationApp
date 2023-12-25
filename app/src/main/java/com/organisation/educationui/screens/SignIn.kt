@@ -188,8 +188,10 @@ fun SignInScreen() {
         text = "Sign Up ",
         textAlign = TextAlign.Center,
         modifier =
-          Modifier.clickable(indication = null,
-            interactionSource = remember { MutableInteractionSource() }) {
+          Modifier.clickable(
+            indication = null,
+            interactionSource = remember { MutableInteractionSource() }
+          ) {
             //
           },
         fontFamily = ExoFamily,

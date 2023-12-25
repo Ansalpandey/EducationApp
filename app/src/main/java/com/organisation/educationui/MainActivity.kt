@@ -6,10 +6,12 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.organisation.educationui.screens.ExpandableCard
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
+import com.organisation.educationui.screens.CardTeachers
 import com.organisation.educationui.screens.MainScreen
-import com.organisation.educationui.screens.SignInScreen
 import com.organisation.educationui.ui.theme.Background
+import com.organisation.educationui.ui.theme.ColorCard2
 import com.organisation.educationui.ui.theme.EducationUITheme
 
 class MainActivity : ComponentActivity() {

@@ -23,6 +23,7 @@ val Typography =
 
 val ExoFamily =
   FontFamily(
+    Font(R.font.exo_semibold, FontWeight.SemiBold),
     Font(R.font.exo_semibold, FontWeight.ExtraBold),
     Font(R.font.exo_medium, FontWeight.Medium),
     Font(R.font.exo_regular, FontWeight.Normal)

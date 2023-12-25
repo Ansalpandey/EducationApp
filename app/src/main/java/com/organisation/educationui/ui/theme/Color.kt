@@ -2,17 +2,13 @@ package com.organisation.educationui.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
-
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
-
 val Background = Color(0xFFE5E5E5)
 val BackgroundButton = Color(0xFF5667FD)
 val TextColor = Color(0xFF364356)
 val TextColorDescription = Color(0xFF636D77)
 val TextColorSkip = Color(0xFF5667FD)
 
+val ColorCard1 = Color(0xFFCF687D)
+val ColorCard2 = Color(0xFF413535)
+val ColorCard3 = Color(0xFFE7E7E7)
+val ColorCard4 = Color(0xFFB77E6B)

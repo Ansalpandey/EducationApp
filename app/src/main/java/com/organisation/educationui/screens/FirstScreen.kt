@@ -98,12 +98,13 @@ fun OnBoardScreen() {
         )
       }
       Text(
-        modifier = Modifier.align(Alignment.CenterHorizontally).padding(top = 30.dp).clickable(
-          indication = null,
-          interactionSource = remember { MutableInteractionSource() }
-        ) {
-          //
-        },
+        modifier =
+          Modifier.align(Alignment.CenterHorizontally).padding(top = 30.dp).clickable(
+            indication = null,
+            interactionSource = remember { MutableInteractionSource() }
+          ) {
+            //
+          },
         text = "Skip",
         fontFamily = ExoFamily,
         fontSize = 18.sp,
