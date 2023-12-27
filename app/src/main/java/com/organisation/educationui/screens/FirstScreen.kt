@@ -1,8 +1,5 @@
 package com.organisation.educationui.screens
 
-import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -14,7 +11,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -24,32 +20,18 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.organisation.educationui.R
-import com.organisation.educationui.ui.theme.Background
 import com.organisation.educationui.ui.theme.BackgroundButton
-import com.organisation.educationui.ui.theme.EducationUITheme
 import com.organisation.educationui.ui.theme.ExoFamily
 import com.organisation.educationui.ui.theme.TextColor
 import com.organisation.educationui.ui.theme.TextColorDescription
 import com.organisation.educationui.ui.theme.TextColorSkip
 
-class FirstScreen : ComponentActivity() {
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    setContent {
-      EducationUITheme {
-        // A surface container using the 'background' color from the theme
-        Surface(modifier = Modifier.fillMaxSize(), color = Background) { OnBoardScreen() }
-      }
-    }
-  }
-}
-
 @Composable
-fun OnBoardScreen() {
+fun OnBoardScreen(navController: NavController) {
   Column(
     modifier = Modifier.fillMaxSize(),
     horizontalAlignment = Alignment.CenterHorizontally,
@@ -82,7 +64,7 @@ fun OnBoardScreen() {
 
     Column(modifier = Modifier.padding(top = 30.dp).align(Alignment.CenterHorizontally)) {
       Button(
-        onClick = { /*TODO*/},
+        onClick = {},
         colors = ButtonDefaults.buttonColors(BackgroundButton),
         shape = RoundedCornerShape(12.dp),
         modifier = Modifier.size(267.dp, 61.dp).align(Alignment.CenterHorizontally),
@@ -113,10 +95,4 @@ fun OnBoardScreen() {
       )
     }
   }
-}
-
-@Preview(showSystemUi = true, showBackground = true)
-@Composable
-fun OnBoardScreenPreview() {
-  OnBoardScreen()
 }

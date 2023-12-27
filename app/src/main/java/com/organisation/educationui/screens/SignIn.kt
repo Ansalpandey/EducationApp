@@ -1,8 +1,5 @@
 package com.organisation.educationui.screens
 
-import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -33,28 +30,22 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
 import com.organisation.educationui.R
 import com.organisation.educationui.ui.theme.BackgroundButton
-import com.organisation.educationui.ui.theme.EducationUITheme
 import com.organisation.educationui.ui.theme.ExoFamily
 import com.organisation.educationui.ui.theme.RobotoFamily
 import com.organisation.educationui.ui.theme.TextColor
 import com.organisation.educationui.ui.theme.TextColorDescription
 
-class SignIn : ComponentActivity() {
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    setContent { EducationUITheme {} }
-  }
-}
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SignInScreen() {
-
   Text(
     modifier = Modifier.padding(top = 10.dp, start = 20.dp),
     text = "Welcome Back....",
@@ -157,7 +148,8 @@ fun SignInScreen() {
     )
 
     Button(
-      onClick = { /*TODO*/},
+      onClick = {
+      },
       colors = ButtonDefaults.buttonColors(BackgroundButton),
       shape = RoundedCornerShape(12.dp),
       modifier =
@@ -201,10 +193,4 @@ fun SignInScreen() {
       )
     }
   }
-}
-
-@Preview(showSystemUi = true, showBackground = true)
-@Composable
-fun SignInScreenPreview() {
-  EducationUITheme { SignInScreen() }
 }

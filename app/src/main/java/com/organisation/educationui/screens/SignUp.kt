@@ -33,6 +33,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.organisation.educationui.R
 import com.organisation.educationui.ui.theme.BackgroundButton
 import com.organisation.educationui.ui.theme.ExoFamily
@@ -42,7 +43,7 @@ import com.organisation.educationui.ui.theme.TextColorDescription
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SignUpScreen() {
+fun SignUpScreen(navController: NavController) {
 
   Text(
     modifier = Modifier.padding(top = 30.dp, start = 20.dp),
@@ -226,8 +227,3 @@ fun SignUpScreen() {
   }
 }
 
-@Preview(showBackground = true, showSystemUi = true)
-@Composable
-fun LoginScreenPreview() {
-  SignUpScreen()
-}
