@@ -31,7 +31,7 @@ import com.organisation.educationui.ui.theme.TextColorDescription
 import com.organisation.educationui.ui.theme.TextColorSkip
 
 @Composable
-fun OnBoardScreen(navController: NavController) {
+fun OnBoardScreen() {
   Column(
     modifier = Modifier.fillMaxSize(),
     horizontalAlignment = Alignment.CenterHorizontally,

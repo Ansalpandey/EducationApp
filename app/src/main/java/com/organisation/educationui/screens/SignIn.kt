@@ -32,10 +32,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.navigation.NavController
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavController
 import com.organisation.educationui.R
 import com.organisation.educationui.ui.theme.BackgroundButton
 import com.organisation.educationui.ui.theme.ExoFamily
@@ -148,8 +144,7 @@ fun SignInScreen() {
     )
 
     Button(
-      onClick = {
-      },
+      onClick = {},
       colors = ButtonDefaults.buttonColors(BackgroundButton),
       shape = RoundedCornerShape(12.dp),
       modifier =
