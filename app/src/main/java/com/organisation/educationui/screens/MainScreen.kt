@@ -27,7 +27,6 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -56,10 +55,10 @@ import com.organisation.educationui.ui.theme.TextColor
 import com.organisation.educationui.ui.theme.TextColorDescription
 import com.organisation.educationui.ui.theme.TextColorSkip
 
-@Stable
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MainScreen() {
+
   Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
     Row() {
       Column {
@@ -180,7 +179,11 @@ fun MainScreen() {
         subject = "Biology",
         backgroundColor = TeacherCard1,
         image = R.drawable.firstperson,
-        modifier = Modifier
+        modifier =
+          Modifier.clickable(
+            indication = null,
+            interactionSource = remember { MutableInteractionSource() }
+          ) {}
       )
       Spacer(modifier = Modifier.width(20.dp))
       CardTeachers(
@@ -188,7 +191,11 @@ fun MainScreen() {
         subject = "Chemistry",
         backgroundColor = TeacherCard2,
         image = R.drawable.secondperson,
-        modifier = Modifier
+        modifier =
+          Modifier.clickable(
+            indication = null,
+            interactionSource = remember { MutableInteractionSource() }
+          ) {}
       )
       Spacer(modifier = Modifier.width(20.dp))
       CardTeachers(
@@ -196,7 +203,11 @@ fun MainScreen() {
         subject = "Physics",
         backgroundColor = TeacherCard3,
         image = R.drawable.thirdperson,
-        modifier = Modifier
+        modifier =
+          Modifier.clickable(
+            indication = null,
+            interactionSource = remember { MutableInteractionSource() }
+          ) {}
       )
       Spacer(modifier = Modifier.width(20.dp))
       CardTeachers(
@@ -204,8 +215,13 @@ fun MainScreen() {
         subject = "Bio Science",
         backgroundColor = TeacherCard4,
         image = R.drawable.fourthperson,
-        modifier = Modifier
+        modifier =
+          Modifier.clickable(
+            indication = null,
+            interactionSource = remember { MutableInteractionSource() }
+          ) {}
       )
+      Spacer(modifier = Modifier.width(20.dp))
     }
 
     Spacer(modifier = Modifier.height(40.dp))
@@ -227,7 +243,11 @@ fun MainScreen() {
     Spacer(modifier = Modifier.height(20.dp))
     Column(modifier = Modifier.padding(start = 20.dp, end = 20.dp)) {
       InstituteCard(
-        modifier = Modifier,
+        modifier =
+          Modifier.clickable(
+            indication = null,
+            interactionSource = remember { MutableInteractionSource() }
+          ) {},
         collegeName = "Victory College",
         rating = "4.5",
         reviews = "413",
@@ -239,7 +259,11 @@ fun MainScreen() {
       )
       Spacer(modifier = Modifier.height(20.dp))
       InstituteCard(
-        modifier = Modifier,
+        modifier =
+          Modifier.clickable(
+            indication = null,
+            interactionSource = remember { MutableInteractionSource() }
+          ) {},
         collegeName = "New Montana",
         rating = "4.1",
         reviews = "354",
@@ -250,7 +274,11 @@ fun MainScreen() {
       )
       Spacer(modifier = Modifier.height(20.dp))
       InstituteCard(
-        modifier = Modifier,
+        modifier =
+          Modifier.clickable(
+            indication = null,
+            interactionSource = remember { MutableInteractionSource() }
+          ) {},
         collegeName = "Susipwan Institute",
         rating = "3.0",
         reviews = "745",

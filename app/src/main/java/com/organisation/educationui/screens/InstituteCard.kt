@@ -1,10 +1,13 @@
 package com.organisation.educationui.screens
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -17,6 +20,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -42,15 +47,13 @@ fun InstituteCard(
   image: Int,
 ) {
   Card(
-    modifier = modifier.height(220.dp).width(380.dp).fillMaxSize(),
+    modifier = modifier.height(220.dp).fillMaxWidth().fillMaxSize().shadow(elevation = 8.dp, shape = RoundedCornerShape(12.dp)),
     shape = RoundedCornerShape(12.dp),
     colors = CardDefaults.cardColors(Color.White)
   ) {
     Row(modifier = modifier.padding(15.dp)) {
-      Card(
-        modifier = modifier.height(190.dp).width(160.dp),
-        shape = RoundedCornerShape(12.dp),
-        colors = CardDefaults.cardColors(backgroundColor)
+      Column(
+        modifier = modifier.height(190.dp).width(160.dp).clip(shape = RoundedCornerShape(12.dp)).background(backgroundColor)
       ) {
         Image(
           modifier = modifier.size(190.dp).padding(5.dp),
@@ -61,7 +64,7 @@ fun InstituteCard(
       Column {
         Text(
           text = collegeName,
-          fontSize = 16.sp,
+          fontSize = 18.sp,
           modifier = modifier.padding(top = 7.dp, start = 7.dp),
           fontFamily = ExoFamily,
           fontWeight = FontWeight.SemiBold,
@@ -113,7 +116,7 @@ fun InstituteCard(
         Column(modifier = modifier.padding(start = 10.dp, top = 2.dp)) {
           Text(
             text = subject,
-            fontSize = 14.sp,
+            fontSize = 18.sp,
             fontFamily = RobotoFamily,
             fontWeight = FontWeight.SemiBold,
             color = TextColor
@@ -121,12 +124,12 @@ fun InstituteCard(
 
           Text(
             text = description,
-            fontSize = 12.sp,
+            fontSize = 16.sp,
             fontFamily = RobotoFamily,
             fontWeight = FontWeight.Normal,
             color = Color.Black,
             maxLines = 10,
-            lineHeight = 12.sp
+            lineHeight = 15.sp
           )
         }
       }
